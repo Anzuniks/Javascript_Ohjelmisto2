@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module1: Task 1_4</title>
+</head>
+<body>
+<p id="school"></p>
+<script>
+'use strict';
+let nimi = prompt('What is your name?');
+let numero = Math.floor(Math.random() * 4) +1;
+
+let tupa;
+if (numero === 1) {
+    tupa = "Gryffindor";
+} else if (numero === 2) {
+    tupa = "Slytherin";
+} else if (numero === 3) {
+    tupa = "Hufflepuff"
+} else {
+    tupa = "RavenClaw";
+}
+document.write(nimi + ", you are " + tupa + "!" )
+</script>
+</body>
+</html>

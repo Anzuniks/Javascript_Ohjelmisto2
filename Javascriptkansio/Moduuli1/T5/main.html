@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module1: Task 1_5</title>
+</head>
+<body>
+<p id="year"></p>
+<script>
+'use strict';
+
+let vuosi = parseInt(prompt("Enter a year"));
+let tulos;
+
+if (vuosi % 400 === 0) {
+    tulos = "Leap year";
+} else if (vuosi % 100 === 0) {
+    tulos = "not a leap year";
+} else if (vuosi % 4 === 0) {
+    tulos = "leap year";
+} else {
+    tulos = "not a leap year";
+}
+
+document.write(vuosi + " is a " + tulos);
+
+
+
+</script>
+</body>
+</html>
